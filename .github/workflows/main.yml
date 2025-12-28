@@ -18,6 +18,7 @@ on:
     - '.github/workflows/**'
     - '.gitmodules'
     - 'src/c_src/ftpclient'
+  workflow_dispatch:
     
 jobs:
   alpine:
