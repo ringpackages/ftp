@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "ysdragon",
 	:email = "",
 	:license = "MIT License",
-	:version = "1.1.1",
+	:version = "1.1.2",
 	:ringversion = "1.24",
 	:versions = 	[
 		[
-			:version = "1.1.1",
+			:version = "1.1.2",
 			:branch = "master"
 		]
 	],
@@ -52,7 +52,9 @@ aPackageInfo = [
 	],
 	:linuxfiles = 	[
 		"lib/linux/amd64/libring_ftp.so",
-		"lib/linux/arm64/libring_ftp.so"
+		"lib/linux/arm64/libring_ftp.so",
+		"lib/linux/musl/amd64/libring_ftp.so",
+		"lib/linux/musl/arm64/libring_ftp.so"
 	],
 	:ubuntufiles = 	[
 
